@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+xrun -sv -access +rwc \
+    ../rtl/fxp.sv \
+    ../rtl/pe.sv \
+    ../rtl/pe_smoke_tb.sv
+
